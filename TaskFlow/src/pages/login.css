@@ -1,0 +1,214 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+  }
+  
+  /* Page Background */
+  body {
+    /* width:100%; */
+    min-height: 100vh;
+    /* background: linear-gradient(135deg, #f8d7e3, #fce4ec); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Main container */
+  main {
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Login card */
+  #details {
+    width: 500px;
+    /* max-width: 420px; */
+    background: #fff;
+    padding: 40px;
+    border-radius: 18px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+    display: flex;
+    flex-direction: column;
+    /* gap: 20px; */
+  }
+  
+  /* Heading */
+  .heading h1 {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+  }
+  
+  .heading p {
+    text-align: center;
+    color: #777;
+    /* margin-top: 10px; */
+    padding-bottom: 20px;
+  }
+  
+  /* Form */
+  form {
+    display: flex;
+    flex-direction: column;
+    /* gap: 12px; */
+  }
+  
+  /* Labels */
+  label {
+    font-size: 14px;
+    color: #444;
+    font-weight: 600;
+  }
+  
+  /* Inputs */
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14px;
+    gap: none;
+    transition: 0.25s ease;
+  }
+  
+  /* Focus effect */
+  input:focus {
+    border-color: rgb(142, 170, 211);
+    box-shadow: 0 0 0 3px rgba(211, 142, 161, 0.2);
+  }
+  
+  /* Remember + Forgot row */
+  form div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    font-size: 13px;
+    color: #555;
+  }
+  
+  /* Checkbox */
+  input[type="checkbox"] {
+    width: 14px;
+    height: 14px;
+    margin-right: 6px;
+  }
+  
+  /* Forgot password */
+  span {
+    color: rgb(142, 166, 211);
+    cursor: pointer;
+    font-weight: 600;
+  }
+  
+  /* Login button */
+  #loginBtn {
+    width: 100%;
+    padding: 12px;
+  
+    border: none;
+    border-radius: 10px;
+  
+    background:rgb(81, 111, 247);
+    color: white;
+  
+    font-size: 16px;
+    font-weight: 600;
+  
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  /* Hover */
+  #loginBtn:hover {
+    background: rgb(81, 111, 247);
+    transform: translateY(-2px);
+  }
+  
+  /* OR text */
+  .or {
+    padding-top:10px ;
+    text-align: center;
+    color: #999;
+    font-size: 14px;
+  }
+  
+  /* Google button */
+  button:not(#loginBtn) {
+    width: 100%;
+    padding: 12px;
+  
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  
+    background: white;
+    color: #333;
+  
+    font-weight: 600;
+    cursor: pointer;
+  
+    transition: 0.3s ease;
+  }
+  
+  /* Google hover */
+  button:not(#loginBtn):hover {
+    background: #f5f5f5;
+  }
+  
+  /* Register section */
+  .id {
+    text-align: center;
+    margin-top: 10px;
+  
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .id h4 {
+    color: #555;
+    font-weight: normal;
+  }
+  
+  /* Register button */
+  .id button {
+    border: none;
+    background: transparent;
+    color: white !important;
+    background-color: rgb(81, 111, 247) !important ;
+    font-weight: bold;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .id button:hover {
+    background: rgb(81, 111, 247);
+    transform: translateY(-2px);
+  }
+  
+  /* Card after login */
+  h1 {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Responsive */
+  @media (max-width: 500px) {
+    #details {
+      padding: 25px;
+    }
+  
+    .heading h1 {
+      font-size: 1.6rem;
+    }
+  }

@@ -1,0 +1,155 @@
+/* ==========================
+   FEATURES SECTION
+========================== */
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.features-section,
+.how-section {
+    /* padding: 100px 0; */
+    background: #f8fafc;
+}
+
+.section-title {
+    font-size: 2.8rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 60px;
+    color: #0f172a;
+}
+
+.feature-card,
+.step-card {
+    background: white;
+    border-radius: 20px;
+    padding: 35px 25px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    height: 100%;
+}
+
+.feature-card:hover,
+.step-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(139, 92, 246, 0.15);
+}
+
+
+.feature-icon,
+.step-icon {
+    font-size: 3rem;
+    color: #0F172A;
+    /* Same as Hero background */
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+.feature-card:hover .feature-icon,
+.step-card:hover .step-icon {
+    color: #1E293B;
+    /* Same as Task Board card */
+    transform: scale(1.1);
+}
+
+.feature-card h4,
+.step-card h4 {
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #0f172a;
+}
+
+.feature-card p,
+.step-card p {
+    color: #64748b;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.custom-navbar {
+    background: #0F172A;
+    padding: 18px 0;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+.logo-icon {
+    color: #6366F1;
+    font-size: 2rem;
+    margin-right: 10px;
+}
+
+.logo-text {
+    color: #6366F1;
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+.nav-link {
+    color: #CBD5E1 !important;
+    font-size: 1.05rem;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #6366F1 !important;
+}
+
+/* .btn-primary {
+    background: #6366F1;
+    border: none;
+}
+
+.btn-primary:hover {
+    background: #4F46E5;
+} */
+
+/* Navbar */
+.custom-navbar {
+    background: #111827;
+    padding: 18px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Logo Icon */
+.logo-icon {
+    color: #38BDF8;
+    font-size: 2rem;
+    margin-right: 10px;
+}
+
+.logo-text {
+    color: #38BDF8;
+    font-size: 2.5rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.register-btn {
+    /* background: #38BDF8 !important; */
+    color: white !important;
+    /* border: 2px solid #38BDF8 !important; */
+    border-radius: 10px;
+    padding: 8px 20px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.register-btn:hover {
+    background: white !important;
+    color: black !important;
+    border: 2px solid white !important;
+}
+
+.btn-outline-light {
+    border: 3px solid white;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-light:hover {
+    /* border: 2px solid white; */
+    background-color: white;
+    color: black !important;
+}
